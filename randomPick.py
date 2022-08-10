@@ -2,10 +2,11 @@ import sys
 import random
 
 
-def pickRandomOption():
+def main():
     options = sys.argv
     options.pop(0)
     print(random.choice(options))
 
 
-pickRandomOption()
+if __name__ == '__main__':
+    main()
